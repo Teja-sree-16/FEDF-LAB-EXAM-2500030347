@@ -2,8 +2,10 @@ import React from 'react'
 import { Link, Route, Routes } from 'react-router-dom'
 import Home from './Home'
 import ApplicantRegistration from './ApplicantRegistration'
-import ApplicantList from './ApplicantList'
+
 import APIdemo from './ApiDemo'
+import './navbar.css'
+import ApplicantList from './ApplicantList'
 
 export default function MainNavBar() {
 
@@ -18,7 +20,7 @@ export default function MainNavBar() {
         <Routes>
             <Route path="/"  element={<Home/>}/>
             <Route path="/registration" element={<ApplicantRegistration/>}/>
-            <Route path='/registeredsadded' element={<ApplicantList/>}/>
+            <Route path="/registeresadded" element={<ApplicantList/>}/>
             <Route path='/apidemo' element={<APIdemo/>}/>
         </Routes>
     </div>

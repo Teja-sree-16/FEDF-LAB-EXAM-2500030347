@@ -33,13 +33,19 @@ export default function Api()
             error?<b>{error}</b>:
             data.length == 0?
             <b>loading ...</b>:
-            <table border={1}>
+           <table
+  style={{
+    backgroundColor: "#f3f3f8",
+    borderCollapse: "collapse",
+    width: "100%"
+  }} border={4}
+>
                 <tr>
                     <th>ID</th>
                     <th>Title</th>
                     <th>body</th>
                     <th>link</th>
-                    <th>Category</th>
+                   
                     
                     
                 </tr>
@@ -50,9 +56,7 @@ export default function Api()
                       <td>{product.title}</td>
                       <td>{product.body}</td>
                       <td>{product.link}</td>
-                      <td>{product.category}</td>
-                      <td>
-                        <img src={product.image} width="30%" height="30%"/></td>
+                     
                       
                       
                     </tr>

@@ -1,0 +1,83 @@
+/* ===== Page Layout ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(120deg, #e3f2fd, #f5f9ff);
+  margin: 0;
+}
+
+/* ===== Form Container ===== */
+.registration-form {
+  width: 420px;
+  margin: 70px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  border-top: 6px solid #4a90e2;
+}
+
+/* ===== Heading ===== */
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1a3c6e;
+}
+
+/* ===== Form Groups ===== */
+.registration-form form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+/* ===== Labels ===== */
+.registration-form label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #1a3c6e;
+}
+
+/* ===== Inputs & Select ===== */
+.registration-form input,
+.registration-form select {
+  padding: 11px;
+  border: 1px solid #d0d7e2;
+  border-radius: 7px;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+/* ===== Input Focus ===== */
+.registration-form input:focus,
+.registration-form select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74,144,226,0.35);
+}
+
+/* ===== Button ===== */
+.registration-form button {
+  margin-top: 12px;
+  padding: 12px;
+  background: linear-gradient(135deg, #4a90e2, #357abd);
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* ===== Button Hover ===== */
+.registration-form button:hover {
+  background: linear-gradient(135deg, #357abd, #2a5fa0);
+  transform: translateY(-1px);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+  .registration-form {
+    width: 90%;
+    margin: 40px auto;
+  }
+}

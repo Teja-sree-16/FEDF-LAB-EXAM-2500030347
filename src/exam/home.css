@@ -1,0 +1,29 @@
+/* Page Container */
+.home-container{
+  max-width:600px;
+  margin:60px auto;
+  text-align:center;
+  padding:30px;
+  background:white;
+  border-radius:12px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+.home-container h2{
+  color:#556B2F;   /* olive green */
+  margin-bottom:20px;
+}
+
+/* Image */
+.home-image{
+  width:120px;
+  margin-bottom:20px;
+}
+
+/* Text */
+.home-container p{
+  font-size:16px;
+  color:#444;
+  line-height:1.6;
+}
